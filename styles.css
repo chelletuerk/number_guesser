@@ -1,0 +1,11 @@
+.userGuess {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.guessMessage {
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+}
