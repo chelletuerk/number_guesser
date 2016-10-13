@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
     <title>Number Guesser</title>
   </head>
   <body>
-    <header>Number Guesser</header>
-    <input type="number"></input>
-    <button class="guess">Submit Guess</button>
-    <button class="clear">Clear</button>
-    <button class="reset">Reset Game</button>
+    <header><span class="number">Number</span> <span class="guesser">Guesser</span></header>
+    <section id="container">
+      <input type="text" class="userInput"/>
 
+      <section id="buttonContain">
+        <button class="submit">Submit Guess</button>
+        <button class="clear">Clear Guess</button>
+      </section>
     <section class="userGuess"></section>
-  </body>
-  <section class="guessMessage"></section>
+
+      <button class="reset">Reset Game</button>
+    </section>
 </html>
+<script src="functions.js"></script>
