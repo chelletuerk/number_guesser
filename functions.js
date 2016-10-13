@@ -8,7 +8,7 @@ var theNumber = randomNumber();
 submitButton.addEventListener('click', function() {
   var realNumber = parseInt(inputField.value);
   checkTheNumbers(realNumber);
-inputField.value = "";
+  inputField.value = "";
 });
 
 //The clear button functionality
