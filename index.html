@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
     <title>Number Guesser</title>
   </head>
   <body>
-    <header><span class="bold">Number</span> <span class="thin">Guesser</span></header>
-    <section class="container">
+    <header><span class="number">Number</span> <span class="guesser">Guesser</span></header>
+    <section id="container">
       <input type="text" class="userInput"/>
 
-      <section class="buttonContain">
+      <section id="buttonContain">
         <button class="submit">Submit Guess</button>
         <button class="clear">Clear Guess</button>
       </section>
