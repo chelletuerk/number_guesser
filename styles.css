@@ -1,11 +1,64 @@
-.userGuess {
-  width: 200px;
-  height: 200px;
-  border: 2px solid black;
+body, button {
+font-family: 'Open Sans', sans-serif;
 }
-
-.guessMessage {
+.bold {
+  color: #ED458B;
+  font-weight: bold;
+}
+.thin {
+  color: #E6E7E8;
+  font-weight: lighter;
+}
+header {
+  text-align: center;
+  width: auto;
+  height: 100px;
+  background-color: #404041;
+  font-size: 30px;
+}
+.container {
+  width: auto;
+  height: 400px;
+  border: thin solid red;
+}
+.buttonContain {
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  border: thin solid red;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.userInput {
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+.submit, .clear, .reset {
+  border: none;
+  color: #FFFFFF;
+  width: 150px;
+  height: 20px;
+  border-radius: 10px;
+  display: block;
+}
+.submit {
+  order: 1;
+  margin: auto;
+}
+.clear {
+  order: 2;
+  margin: auto;
+}
+.userGuess {
   width: 200px;
   height: 50px;
   border: 2px solid black;
+  margin: auto;
+  margin-top: 50px;
+}
+.reset {
+  display: block;
+  margin: auto;
 }
